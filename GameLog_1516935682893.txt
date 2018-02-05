@@ -1,0 +1,75 @@
+
+  2018-01-26 11:00:55  Constructs the CStandaloneApp instance.
+  2018-01-26 11:00:55  CStandaloneApp _Initialize.
+  2018-01-26 11:00:55  CMobaGameApp _Initialize.
+  2018-01-26 11:00:55  load : http://cdn.moba.tx6001.qifun.com/loading/startup.swf
+  2018-01-26 11:00:55  load complete : http://cdn.moba.tx6001.qifun.com/loading/startup.swf
+  2018-01-26 11:01:11  [ENTER] com.qifun.moba.login::CLoginStage [ state : (0) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginStage [ state : (0) ] added { [object CMobaGameApp]} index = 0
+  2018-01-26 11:01:11  [开始 INITED] com.qifun.moba.login::CLoginStage [ state : (1) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginStage [ state : (1) ] added { com.qifun.moba.login::CLoginSystem [ state : (0) ]} index = 1
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (0) ] [star init] 
+  2018-01-26 11:01:11  [开始 INITED] com.qifun.moba.login::CLoginSystem [ state : (1) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (1) ] added { [object CLoginData]} index = 0
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (1) ] added { com.qifun.moba.login::CLoginHandler [ state : (0) ]} index = 1
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (1) ] added { com.qifun.moba.login::CLoginViewMediator [ state : (0) ]} index = 2
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginHandler [ state : (0) ] [star init] 
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginViewMediator [ state : (0) ] [star init] 
+  2018-01-26 11:01:11  [开始 INITED] com.qifun.moba.login::CLoginHandler [ state : (1) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginStage [ state : (1) ] added { com.qifun.moba.reconnect::CReconnectSystem [ state : (0) ]} index = 2
+  2018-01-26 11:01:11  com.qifun.moba.reconnect::CReconnectSystem [ state : (0) ] [star init] 
+  2018-01-26 11:01:11  [doInitComplate 完成] com.qifun.moba.login::CLoginHandler [ state : (2) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (1) ][ INIT Progress ]  = 1 /2 finished = { com.qifun.moba.login::CLoginHandler [ state : (2) ]} 耗时：0
+  2018-01-26 11:01:11  [开始 INITED] com.qifun.moba.login::CLoginViewMediator [ state : (1) ]
+  2018-01-26 11:01:11  [doInitComplate 完成] com.qifun.moba.login::CLoginViewMediator [ state : (2) ]
+  2018-01-26 11:01:11  [doInitComplate 完成] com.qifun.moba.login::CLoginSystem [ state : (2) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (2) ][ INIT Progress ]  = 2 /2 finished = { com.qifun.moba.login::CLoginViewMediator [ state : (2) ]} 耗时：0
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginStage [ state : (1) ][ INIT Progress ]  = 1 /2 finished = { com.qifun.moba.login::CLoginSystem [ state : (2) ]} 耗时：61
+  2018-01-26 11:01:11  [开始 INITED] com.qifun.moba.reconnect::CReconnectSystem [ state : (1) ]
+  2018-01-26 11:01:11  com.qifun.moba.reconnect::CReconnectSystem [ state : (1) ] added { com.qifun.moba.reconnect::CReconnectHandler [ state : (0) ]} index = 0
+  2018-01-26 11:01:11  com.qifun.moba.reconnect::CReconnectHandler [ state : (0) ] [star init] 
+  2018-01-26 11:01:11  [开始 INITED] com.qifun.moba.reconnect::CReconnectHandler [ state : (1) ]
+  2018-01-26 11:01:11  [doInitComplate 完成] com.qifun.moba.reconnect::CReconnectHandler [ state : (2) ]
+  2018-01-26 11:01:11  [doInitComplate 完成] com.qifun.moba.reconnect::CReconnectSystem [ state : (2) ]
+  2018-01-26 11:01:11  com.qifun.moba.reconnect::CReconnectSystem [ state : (2) ][ INIT Progress ]  = 1 /1 finished = { com.qifun.moba.reconnect::CReconnectHandler [ state : (2) ]} 耗时：0
+  2018-01-26 11:01:11  [doInitComplate 完成] com.qifun.moba.login::CLoginStage [ state : (2) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginStage [ state : (2) ][ INIT Progress ]  = 2 /2 finished = { com.qifun.moba.reconnect::CReconnectSystem [ state : (2) ]} 耗时：61
+  2018-01-26 11:01:11  [开始 PreLoad] com.qifun.moba.login::CLoginStage [ state : (3) ]
+  2018-01-26 11:01:11  [开始 PreLoad] com.qifun.moba.login::CLoginSystem [ state : (3) ]
+  2018-01-26 11:01:11  [开始 PreLoad] com.qifun.moba.login::CLoginHandler [ state : (3) ]
+  2018-01-26 11:01:11  [doPreLoadComplate 完成] com.qifun.moba.login::CLoginHandler [ state : (4) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (3) ][  PreLoad Progress ]  = 1 /2 finished = { com.qifun.moba.login::CLoginHandler [ state : (4) ]} 耗时：0
+  2018-01-26 11:01:11  [开始 PreLoad] com.qifun.moba.login::CLoginViewMediator [ state : (3) ]
+  2018-01-26 11:01:11  [doPreLoadComplate 完成] com.qifun.moba.login::CLoginViewMediator [ state : (4) ]
+  2018-01-26 11:01:11  [doPreLoadComplate 完成] com.qifun.moba.login::CLoginSystem [ state : (4) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginSystem [ state : (4) ][  PreLoad Progress ]  = 2 /2 finished = { com.qifun.moba.login::CLoginViewMediator [ state : (4) ]} 耗时：1
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginStage [ state : (3) ][  PreLoad Progress ]  = 1 /2 finished = { com.qifun.moba.login::CLoginSystem [ state : (4) ]} 耗时：36
+  2018-01-26 11:01:11  [开始 PreLoad] com.qifun.moba.reconnect::CReconnectSystem [ state : (3) ]
+  2018-01-26 11:01:11  [开始 PreLoad] com.qifun.moba.reconnect::CReconnectHandler [ state : (3) ]
+  2018-01-26 11:01:11  [doPreLoadComplate 完成] com.qifun.moba.reconnect::CReconnectHandler [ state : (4) ]
+  2018-01-26 11:01:11  [doPreLoadComplate 完成] com.qifun.moba.reconnect::CReconnectSystem [ state : (4) ]
+  2018-01-26 11:01:11  com.qifun.moba.reconnect::CReconnectSystem [ state : (4) ][  PreLoad Progress ]  = 1 /1 finished = { com.qifun.moba.reconnect::CReconnectHandler [ state : (4) ]} 耗时：0
+  2018-01-26 11:01:11  [doPreLoadComplate 完成] com.qifun.moba.login::CLoginStage [ state : (4) ]
+  2018-01-26 11:01:11  com.qifun.moba.login::CLoginStage [ state : (4) ][  PreLoad Progress ]  = 2 /2 finished = { com.qifun.moba.reconnect::CReconnectSystem [ state : (4) ]} 耗时：32
+  2018-01-26 11:01:11  [ Start ] com.qifun.moba.login::CLoginStage [ state : (5) ]
+  2018-01-26 11:01:11  [ 优先启动所有bean ] com.qifun.moba.login::CLoginStage [ state : (5) ]
+  2018-01-26 11:01:11  [ Start ] com.qifun.moba.login::CLoginSystem [ state : (5) ]
+  2018-01-26 11:01:11  [ 优先启动所有bean ] com.qifun.moba.login::CLoginSystem [ state : (5) ]
+  2018-01-26 11:01:11  [ Start ] com.qifun.moba.login::CLoginHandler [ state : (5) ]
+  2018-01-26 11:01:11  [ Start ] com.qifun.moba.login::CLoginViewMediator [ state : (5) ]
+  2018-01-26 11:01:11  [ Start ] com.qifun.moba.reconnect::CReconnectSystem [ state : (5) ]
+  2018-01-26 11:01:11  [ 优先启动所有bean ] com.qifun.moba.reconnect::CReconnectSystem [ state : (5) ]
+  2018-01-26 11:01:11  [ Start ] com.qifun.moba.reconnect::CReconnectHandler [ state : (5) ]
+  2018-01-26 11:01:12  lobby server try to connect 115.159.149.32:10301
+  2018-01-26 11:01:13  lobby server connect success !
+  2018-01-26 11:01:13  Connected to server completed. Auth next step.
+  2018-01-26 11:01:13  queryString:openid=3FDDB0D8645639F4F8CCCBA6CB0FA618&openkey=6705825B08A16A33DF541962124C446B&pf=qqgame&platform=platform&ServerName=æµè¯1åº-ç©å®¶å¿å¥&serverid=490&air=1
+  2018-01-26 11:01:13  paramsStr:{"air":"1","name":"","pfkey":"TEST78C5679FAF55A375C849D7660E54","openkey":"6705825B08A16A33DF541962124C446B","ServerName":"æµè¯1åº-ç©å®¶å¿å¥","platform":"platform","openid":"3FDDB0D8645639F4F8CCCBA6CB0FA618","serverid":"490","loginType":2,"accountId":"3FDDB0D8645639F4F8CCCBA6CB0FA618","pf":"qqgame"}
+  2018-01-26 11:01:13  lobby server connect close
+  2018-01-26 11:01:13  com.qifun.moba.login::CLoginStage [ state : (5) ] added { com.qifun.moba.framework.application.system::CCloseSystem [ state : (0) ]} index = 3
+  2018-01-26 11:01:13  [ 延迟bean Init] com.qifun.moba.login::CLoginStage [ state : (5) ] added { com.qifun.moba.framework.application.system::CCloseSystem [ state : (0) ]}
+  2018-01-26 11:01:13  [开始 INITED] com.qifun.moba.framework.application.system::CCloseSystem [ state : (1) ]
+  2018-01-26 11:01:13  [doInitComplate 完成] com.qifun.moba.framework.application.system::CCloseSystem [ state : (2) ]
+  2018-01-26 11:01:13  [开始 PreLoad] com.qifun.moba.framework.application.system::CCloseSystem [ state : (3) ]
+  2018-01-26 11:01:13  [doPreLoadComplate 完成] com.qifun.moba.framework.application.system::CCloseSystem [ state : (4) ]
+  2018-01-26 11:01:13  [ Start ] com.qifun.moba.framework.application.system::CCloseSystem [ state : (5) ]
